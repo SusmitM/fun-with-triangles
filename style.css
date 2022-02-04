@@ -1,6 +1,22 @@
+html{
+    padding: 0rem;
+    margin: -0.5rem;
+}
 body{
-    background-color: yellow;
+    background-color: black;
+    color:rgb(0, 255, 255);
 }
 .header{
-    border: 0.1rem solid white;
+    border: solid white;
+    padding: 0.5rem;
+    margin: auto;
+}
+.section{
+    text-align: right;
+    text-decoration: none;
+}
+.items{
+    display: inline;
+    padding: 0rem 0.5rem;
+  
 }
