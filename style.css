@@ -1,6 +1,7 @@
 html{
     padding: 0rem;
     margin: -0.5rem;
+    text-align: center;
 }
 body{
     background-color: black;
@@ -19,4 +20,9 @@ body{
     display: inline;
     padding: 0rem 0.5rem;
   
+}
+.btnDiv{
+    width:100%;
+    padding-top: 2rem;
+   
 }
