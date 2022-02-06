@@ -1,28 +1,39 @@
-html{
+html {
     padding: 0rem;
     margin: -0.5rem;
+
+}
+
+body {
+    background-color: black;
+    color: rgb(0, 255, 255);
     text-align: center;
 }
-body{
-    background-color: black;
-    color:rgb(0, 255, 255);
-}
-.header{
-    border: solid white;
+
+.header {
     padding: 0.5rem;
-    margin: auto;
+    margin-top: 1rem;
+    border: 4px outset #00ffff;
+    border-radius: 15px;
 }
-.section{
+
+.title {
+    text-align: left;
+}
+
+.section {
     text-align: right;
     text-decoration: none;
 }
-.items{
+
+.items {
     display: inline;
     padding: 0rem 0.5rem;
-  
+
 }
-.btnDiv{
-    width:100%;
+
+.btnDiv {
+    width: 100%;
     padding-top: 2rem;
-   
+
 }
