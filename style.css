@@ -144,3 +144,34 @@ body {
     font-size: medium;
     border: solid 0.19rem #00ffff;
 }
+<!-- ****This is for calculate area****>
+
+*{
+    margin: auto;
+}
+
+#sideOne {
+    width: 30vh;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    border: solid 0.19rem #00ffff;
+}
+
+#sideTwo {
+    width: 30vh;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    border: solid 0.19rem #00ffff;
+}
+#sideThree {
+    width: 30vh;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    border: solid 0.19rem #00ffff;
+}
