@@ -175,3 +175,16 @@ body {
     font-size: medium;
     border: solid 0.19rem #00ffff;
 }
+<!-- ****This is for quiz****>
+
+*{
+    margin: auto;
+}
+label{
+    display: block;
+    width:100%;
+    font-size: x-large;
+    padding: 2rem 0rem 0.95rem 0rem;
+
+   
+}
