@@ -32,14 +32,16 @@ body {
     cursor: pointer;
 
 }
-.icons{
-    font-size:5vh;
+
+.icons {
+    font-size: 5vh;
     display: inline;
     padding: 0.2rem 2.7rem;
     cursor: pointer;
 
 }
-.fstamp{
+
+.fstamp {
     padding-top: 5rem;
     font-weight: 400;
     font-size: 3vh;
@@ -52,30 +54,34 @@ body {
     padding-top: 2rem;
 
 }
-#angle1{
-    width:30vh;
+
+#angle1 {
+    width: 30vh;
     padding: 0.5rem 0rem 0.5rem 0rem;
     text-align: center;
     font-weight: 700;
     font-size: medium;
-    border:solid 0.19rem #00ffff;
+    border: solid 0.19rem #00ffff;
 }
-#angle2{
-    width:30vh;
+
+#angle2 {
+    width: 30vh;
     padding: 0.5rem 0rem 0.5rem 0rem;
     text-align: center;
     font-weight: 700;
     font-size: medium;
-    border:solid 0.19rem #00ffff;
+    border: solid 0.19rem #00ffff;
 }
-#angle3{
-    width:30vh;
+
+#angle3 {
+    width: 30vh;
     padding: 0.5rem 0rem 0.5rem 0rem;
     text-align: center;
     font-weight: 700;
     font-size: medium;
-    border:solid 0.19rem #00ffff;
+    border: solid 0.19rem #00ffff;
 }
+
 #btnCheck {
     border-top: 1px solid #080808;
     background: #3d09e6;
@@ -88,26 +94,53 @@ body {
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
     border-radius: 13px;
-    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-    box-shadow: rgba(0,0,0,1) 0 1px 0;
-    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
     color: #000000;
     font-size: 15px;
     font-family: Georgia, Serif;
     text-decoration: none;
     vertical-align: middle;
-    }
- #btnCheck:hover {
+}
+
+#btnCheck:hover {
     border-top-color: #e80ea3;
     background: #e80ea3;
     color: #ede4ed;
-    }
- #btnCheck:active {
+}
+
+#btnCheck:active {
     border-top-color: #0d0d0d;
     background: #0d0d0d;
-    }
-    #output{
-        font-size: 4vh;
-        font-weight: bolder;
-    }
+}
+
+#output {
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+<!-- ****This is for calculate hypotenuse****>
+
+*{
+    margin: auto;
+}
+
+#baseValue {
+    width: 30vh;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    border: solid 0.19rem #00ffff;
+}
+
+#heightValue {
+    width: 30vh;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    border: solid 0.19rem #00ffff;
+}
