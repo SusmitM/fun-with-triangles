@@ -1,27 +1,32 @@
-var quizForm =document.querySelector(".quizForm");
-var btnSubmit=document.querySelector("#btnCheck");
-const answers=["90°",
-"right angled",
-"one right angle",
-"12, 16, 20",
-"Equilateral triangle",
-"100°",
-"30°",
-"a + b + c",
-"no",
-"45°",];
+const quizform = document.querySelector(".quiz-form");
+const submitBtn = document.querySelector("#submit-answers-btn");
+// const outputEl = document.querySelector(".output");
 
-function clickHandler(){
-   let score=0;
-     index=0;
-    var formData = new FormData(quizForm);
-    for(let value of formData.values()){
-       
-        if(value===answers[index]){
-            score=score+1;
-        }
-        index = index+1;
+const correctAnswers = [
+  "90°",
+  "right angled",
+  "one right angle",
+  "12, 16, 20",
+  "Equilateral triangle",
+  "100°",
+  "30°",
+  "a + b + c",
+  "no",
+  "45°",
+];
+
+function calculateScore() {
+  const formResults = new FormData(quizform);
+  let score = 0,
+    index = 0;
+  for (let value of formResults.values()) {
+    if (value === correctAnswers[index]) {
+      score = score + 1;
     }
-    console.log(score);
+    index = index + 1;
+  }
+ console.log("The score is "+score);
+ 
 }
-btnSubmit.addEventListener("click",clickHandler);
+
+submitBtn.addEventListener("click", calculateScore);
