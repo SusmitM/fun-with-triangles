@@ -8,6 +8,7 @@ body {
     background-color: black;
     color: #00ffff;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .header {
@@ -184,7 +185,10 @@ label{
     display: block;
     width:100%;
     font-size: x-large;
-    padding: 2rem 0rem 0.95rem 0rem;
-
-   
+    padding: 2rem 0rem 0.95rem 0rem; 
+}
+.questions{
+    font-size:medium;
+    padding-bottom: 2rem;
+    width: 100%;
 }

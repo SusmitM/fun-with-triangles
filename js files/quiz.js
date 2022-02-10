@@ -1,6 +1,6 @@
 const quizform = document.querySelector(".quiz-form");
-const submitBtn = document.querySelector("#submit-answers-btn");
-// const outputEl = document.querySelector(".output");
+const submitBtn = document.querySelector("#btnCheck");
+const output = document.querySelector("#output");
 
 const correctAnswers = [
   "90°",
@@ -10,7 +10,7 @@ const correctAnswers = [
   "Equilateral triangle",
   "100°",
   "30°",
-  "a + b + c",
+  "a + b + c ",
   "no",
   "45°",
 ];
@@ -25,7 +25,7 @@ function calculateScore() {
     }
     index = index + 1;
   }
- console.log("The score is "+score);
+ output.innerText="The score is "+ score;
  
 }
 
