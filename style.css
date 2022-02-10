@@ -33,8 +33,9 @@ body {
     cursor: pointer;
 
 }
-a{
-    color:#00ffff;
+
+a {
+    color: #00ffff;
 }
 
 
@@ -127,9 +128,9 @@ a{
     font-weight: bolder;
 }
 
-<!-- ****This is for calculate hypotenuse****>
+/* <!-- ****This is for calculate hypotenuse****> */
 
-*{
+* {
     margin: auto;
 }
 
@@ -150,9 +151,10 @@ a{
     font-size: medium;
     border: solid 0.19rem #00ffff;
 }
-<!-- ****This is for calculate area****>
 
-*{
+/* <!-- ****This is for calculate area****> */
+
+* {
     margin: auto;
 }
 
@@ -173,6 +175,7 @@ a{
     font-size: medium;
     border: solid 0.19rem #00ffff;
 }
+
 #sideThree {
     width: 30vh;
     padding: 0.5rem 0rem 0.5rem 0rem;
@@ -181,19 +184,22 @@ a{
     font-size: medium;
     border: solid 0.19rem #00ffff;
 }
-<!-- ****This is for quiz****>
 
-*{
+/* <!-- ****This is for quiz****> */
+
+* {
     margin: auto;
 }
-label{
+
+label {
     display: block;
-    width:100%;
+    width: 100%;
     font-size: x-large;
-    padding: 2rem 0rem 0.95rem 0rem; 
+    padding: 2rem 0rem 0.95rem 0rem;
 }
-.questions{
-    font-size:medium;
+
+.questions {
+    font-size: medium;
     padding-bottom: 2rem;
     width: 100%;
 }

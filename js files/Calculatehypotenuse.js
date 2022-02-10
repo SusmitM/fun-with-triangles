@@ -12,4 +12,4 @@ function clickHandler() {
     output.innerText = "The length of hypotenuse is" + " " + result;
 
 }
-    btnCheck.addEventListener("click", clickHandler);
+btnCheck.addEventListener("click", clickHandler);
