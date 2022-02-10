@@ -33,6 +33,11 @@ body {
     cursor: pointer;
 
 }
+a{
+    color:#00ffff;
+}
+
+
 
 .icons {
     font-size: 5vh;
