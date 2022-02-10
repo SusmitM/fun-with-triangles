@@ -25,8 +25,8 @@ function calculateScore() {
     }
     index = index + 1;
   }
- output.innerText="The score is "+ score;
- 
+  output.innerText = "The score is " + score;
+
 }
 
 submitBtn.addEventListener("click", calculateScore);
