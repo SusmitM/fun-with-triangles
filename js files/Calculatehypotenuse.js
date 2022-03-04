@@ -1,14 +1,11 @@
-const baseVal = parseInt(document.querySelector("#baseValue").value);
-const heightVal = parseInt(document.querySelector("#heightValue").value);
+const baseVal = document.querySelector("#baseValue");
+const heightVal = document.querySelector("#heightValue");
 const btnCheck = document.querySelector("#btnCheck");
 
-function hypotenuseCal(baseVal, heightVal) {
-
-}
 
 function clickHandler() {
 
-    var result = Math.sqrt(baseVal * baseVal + heightVal * heightVal);
+    var result = Math.sqrt(parseInt(baseVal.value) * parseInt(baseVal.value) + parseInt(heightVal.value) * parseInt(heightVal.value));
     output.innerText = "The length of hypotenuse is" + " " + result;
 
 }
