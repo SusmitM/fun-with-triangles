@@ -1,17 +1,16 @@
-var Angle1 = parseInt(document.querySelector("#angle1").value);
-var Angle2 = parseInt(document.querySelector("#angle2").value);
-var Angle3 = parseInt(document.querySelector("#angle3").value);
+var Angle1 = document.querySelector("#angle1");
+var Angle2 = document.querySelector("#angle2");
+var Angle3 = document.querySelector("#angle3");
 var output = document.querySelector("#output");
 const btnCheck = document.querySelector("#btnCheck");
 
 function sumCalculator() {
-    var result = Angle1 + Angle2 + Angle3;
+    var result = parseInt(Angle1.value) +parseInt(Angle2.value) + parseInt(Angle3.value);
     return result;
 }
 
 function clickHandler() {
-    var sum = sumCalculator(Angle1, Angle2, Angle3);
-    console.log(sum);
+    var sum = sumCalculator(parseInt(Angle1.value), parseInt(Angle2.value),parseInt(Angle3.value));
     if (sum === 180) {
         output.innerText = "Yay, the angles form a triangle!";
 
