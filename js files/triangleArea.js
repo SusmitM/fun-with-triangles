@@ -1,16 +1,16 @@
-const sideOne = parseInt(document.querySelector("#sideOne").value);
-const sideTwo = parseInt(document.querySelector("#sideTwo").value);
-const sideThree = parseInt(document.querySelector("#sideThree").value);
+const sideOne = document.querySelector("#sideOne");
+const sideTwo = document.querySelector("#sideTwo");
+const sideThree = document.querySelector("#sideThree");
 const btnCheck = document.querySelector("#btnCheck");
 
 function clickHandler() {
     if (
-        sideOne + sideTwo > sideThree &&
-        sideOne + sideThree > sideTwo &&
-        sideTwo + sideThree > sideOne
+        parseInt(sideOne.value) + parseInt(sideTwo.value) > parseInt(sideThree.value) &&
+        parseInt(sideOne.value) + parseInt(sideThree.value) > parseInt(sideTwo.value) &&
+        parseInt(sideTwo.value) + parseInt(sideThree.value) > parseInt(sideOne.value)
     ) {
-        var semiperi = (sideOne + sideTwo + sideThree) / 2
-        const area = Math.sqrt(semiperi * (semiperi - sideOne) * (semiperi - sideTwo) * (semiperi - sideThree)).toFixed(4);
+        var semiperi = (parseInt(sideOne.value) + parseInt(sideTwo.value) + parseInt(sideThree.value)) / 2
+        const area = Math.sqrt(semiperi * (semiperi - parseInt(sideOne.value)) * (semiperi - parseInt(sideTwo.value)) * (semiperi - parseInt(sideThree.value))).toFixed(4);
         output.innerText = `Area of a triangle using heron's formula is ${area} units`;
     } else {
         output.innerText = "Enter valid side lengths such that each side lengths";
