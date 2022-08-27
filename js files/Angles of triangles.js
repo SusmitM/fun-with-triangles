@@ -10,7 +10,11 @@ function sumCalculator() {
 }
 
 function clickHandler() {
-    var sum = sumCalculator(parseInt(Angle1.value), parseInt(Angle2.value),parseInt(Angle3.value));
+    if(Angle1.value=="" || Angle2.value=="" || Angle3.value=="" ){
+        output.innerText = "Invalid Inputs"
+    }
+    else{
+        var sum = sumCalculator(parseInt(Angle1.value), parseInt(Angle2.value),parseInt(Angle3.value));
     if (sum === 180) {
         output.innerText = "Yay, the angles form a triangle!";
 
@@ -20,6 +24,9 @@ function clickHandler() {
 
 
     }
+
+    }
+    
 
 }
 btnCheck.addEventListener("click", clickHandler);
