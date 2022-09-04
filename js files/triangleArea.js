@@ -5,7 +5,11 @@ const btnCheck = document.querySelector("#btnCheck");
 
 function clickHandler() {
     if(sideOne.value=="" || sideTwo.value=="" || sideThree.value==""){
-        output.innerText = "Invalid Inputs"
+        output.innerText = "Enter all the fields"
+    }
+
+    else if(sideOne.value<0 || sideTwo.value<0 || sideThree.value<0){
+        output.innerText = "Enter Positive Values"
     }
     else{
         if (
