@@ -12,7 +12,7 @@ function sumCalculator() {
 function clickHandler() {
 
     if(Angle1.value=="" || Angle2.value=="" || Angle3.value=="" ){
-        output.innerText = "Invalid Inputs!!!";
+        output.innerText = "Enter all fields";
     }
     else if(Angle1.value<0 || Angle2.value<0 || Angle3.value<0 ){
         output.innerText = "Enter Positive Values Only!!!";
